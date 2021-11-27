@@ -35,7 +35,7 @@
                 <label for="password">Mật khẩu</label>
             </div>
             <div class="col-70">
-                <input id="password" type="password" title="" required>
+                <input id="password" type="password" title="tối thiểu 8 ký tự tối đa 16 ký tự chứa 1 ký tự viết hoa, 1 ký tự viết thường, 1 ký tự số, 1 ký tự đặc biệt, không chưa khoảng trắng" minlength="8" maxlength="16" required >
             </div>
         </div>
         <div class="row">
@@ -87,7 +87,7 @@
                     <label for="add">Địa chỉ</label>
                 </div>
                 <div class="col-70">
-                    <input id="add" type="text" required >
+                    <input id="add" type="text" required maxlength="50">
                 </div>
             </div>
             <div class="row">
@@ -95,13 +95,13 @@
                     <label for="phone">Số điện thoại</label>
                 </div>
                 <div class="col-70">
-                    <input id="phone" type="tel" required>
+                    <input id="phone" type="tel" required maxlength="10">
                 </div>
             </div>
         </div>
     </div>
-    <input type="submit" value="Dong y">
-    <input type="reset" value="Nhap lai">
+    <input type="submit" value="Đồng ý">
+    <input type="reset" value="Nhập lại">
     </form>
 </div>
 <footer>Copyright 2011. All Rights Reserved. Phát triển bởi ITPlus Academy</footer>
