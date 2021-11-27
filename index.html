@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css">
+<link rel="stylesheet" href="main.css" type="text/css">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+<body>
+<header>ITPLUS-ACADEMY.COM.VN</header>
+<div id="nav">
+    <ul>
+        <a href="#">Trang chủ</a>
+        <a href="#">Giới thiệu</a>
+        <a href="#">Đăng ký</a>
+        <a href="#">Tin tức</a>
+    </ul>
+</div>
+<h2 style="text-align: center">ĐĂNG KÝ TÀI KHOẢN</h2>
+<div class="leftside">
+    <form>
+    <div class="col-46">
+        <h3>Chi tiết tài khoản</h3>
+        <div class="row">
+            <div class="col-20">
+                <label for="username">Tên đăng nhập</label>
+            </div>
+            <div class="col-70">
+                <input id="username" type="text" title="Nhập tối đa 20 ký tự, viết liền không chưa ký tự đặc biệt" maxlength="20" required>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-20">
+                <label for="password">Mật khẩu</label>
+            </div>
+            <div class="col-70">
+                <input id="password" type="password" title="" required>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-20">
+                <label for="confirm">Xác nhận mật khẩu</label>
+            </div>
+            <div class="col-70">
+                <input id="confirm" type="password" title="" required>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-20">
+                <label for="email">Email</label>
+            </div>
+            <div class="col-70">
+                <input id="email" type="email" title="" required>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-46">
+        <h3>Thông tin người sử dụng</h3>
+        <div class="row">
+            <div class="col-20">
+                <label for="name">Họ và tên</label>
+            </div>
+            <div class="col-70">
+                <input id="name" type="text" title="Tối đa 50 ký tự" required maxlength="50">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-20">
+                <label class="sex">Giới tính</label>
+            </div>
+            <div class="col-70">
+                <label><input type="radio" name="sex"  checked>Nam</label>
+                <label><input type="radio" name="sex" >Nữ</label>
+            </div>
+            <div class="row">
+                <div class="col-20">
+                    <label for="dob">Ngày sinh</label>
+                </div>
+                <div class="col-70">
+                    <input id="dob" type="date" required>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-20">
+                    <label for="add">Địa chỉ</label>
+                </div>
+                <div class="col-70">
+                    <input id="add" type="text" required >
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-20">
+                    <label for="phone">Số điện thoại</label>
+                </div>
+                <div class="col-70">
+                    <input id="phone" type="tel" required>
+                </div>
+            </div>
+        </div>
+    </div>
+    <input type="submit" value="Dong y">
+    <input type="reset" value="Nhap lai">
+    </form>
+</div>
+<footer>Copyright 2011. All Rights Reserved. Phát triển bởi ITPlus Academy</footer>
+</body>
+</html>
